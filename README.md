@@ -5,9 +5,9 @@ Please help us create a simple appointment booking application that can ve used 
 
 ## These are the requirements for the booking application:
 
-- The application should consist of two views, one view for booking time slots and one endpoint for listing time slots.
+- The application should consist of two views, one view for booking time slots and one view for listing the booked appointments. The list view is for the caregivers so all booked appointments should be listed. 
 
-- The application should have 2 API endpoints, one for saving appointments and listing appointments.
+- The application should have 2 API endpoints, one endpoint for saving appointments and one endpoint for listing appointments.
 
 
 ### Booking view:
@@ -18,29 +18,26 @@ Please help us create a simple appointment booking application that can ve used 
 
 - The patient should be able to submit the appointment form.
 
-- The application should check that the time slot seleted is bookable.
-
-- The application should save the appointment if the time slot is available. 
+- The application should give the patient a notification if the time slot could be booked or not, after submit. A time slot is bookable if the timeslot has not been booked by someone else. 
 
 ### List view:
 
-- The application should show a list of booked appointments. 
+- The application should show a list of booked appointments. This view is for the caregivers so all the booked appointments should be listed.
 
 
 ## API
 
-- One endpoint for posting appointments, should respond with appropriate status code and content.
+- One endpoint for posting appointments, should respond with appropriate status code and content. 
 
-- One endpoint for listing booked appointments.
+- One endpoint for listing all booked appointments. 
 
 ## Test
 
-- Please provide some form of testing. At Doctrin we use Jest, Cypress and Mocha. If you feel you have the time to write an End to End test it would be awesome.
+- Please provide some form of testing. At Doctrin we use Jest, Cypress and Mocha. If you feel you have the time to write an End to End test it would be awesome. 
 
 ## Technologies:
 
 - MongoDB
 - React
-- Redux
 - Node.js
 
