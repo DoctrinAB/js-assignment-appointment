@@ -33,6 +33,9 @@ Please help us create a simple appointment booking application that can ve used 
 
 - One endpoint for listing booked appointments.
 
+## Test
+
+- Please provide some form of testing. At Doctrin we use Jest, Cypress and Mocha. If you feel you have the time to write an End to End test it would be awesome.
 
 ## Technologies:
 
