@@ -1,7 +1,7 @@
 # Appointment web application. 
 
 Doctrin needs a way to let it's customers patients book their doctors appointments online, but to take discussions further we need a POC. 
-Please help us create a simple appointment booking application that can ve used as basis for a more deeper investigation. 
+Please help us create a simple appointment booking application that can ve used as basis for a more deeper investigation. If you have limited time, do what would be your first iteration on the problem.
 
 ## These are the requirements for the booking application:
 
