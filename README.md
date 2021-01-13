@@ -7,7 +7,7 @@ Please help us create a simple appointment booking application that can ve used 
 
 - The application should consist of two views, one view for booking time slots and one view for listing the booked appointments. The list view is for the caregivers so all booked appointments should be listed. 
 
-- The application should have 2 API endpoints, one endpoint for saving appointments and one endpoint for listing appointments.
+- The application should have 2 or more API endpoints, one endpoint for saving appointments and one endpoint for listing appointments.
 
 
 ### Booking view:
